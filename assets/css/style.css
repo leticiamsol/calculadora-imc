@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #479423;
+    --primary-color-darker: #145a19;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(163, 184, 201, 0.171), rgba(130, 221, 207, 0.144)), url(../img/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background: var(--primary-color-darker);
+}
+
+/*---------------- SECTION - UL - LI - H1 - H2 ----------------*/
+
+.row {
+    display: flex;
+}
+
+.col-2 {
+    padding-left: 100px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+h2 {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+li {
+    padding: 3px;
+    font-size: 18px;
+}
+
+.calcule {
+    margin-top: 5px;
+}
+
+.paragrafo-resultado,
+.bad {
+    background: rgb(46, 216, 202);
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(255, 150, 150);
+}
